@@ -8,7 +8,7 @@ package solutions
  *     Right *TreeNode
  * }
  */
-type this struct{}
+type p437 struct{}
 
 func PathSum(root *TreeNode, targetSum int) int {
 	if root == nil {
@@ -16,11 +16,11 @@ func PathSum(root *TreeNode, targetSum int) int {
 	}
 
 	count := 0
-	new(this).traverse(root, []int{}, targetSum, &count)
+	new(p437).traverse(root, []int{}, targetSum, &count)
 	return count
 }
 
-func (t this) traverse(node *TreeNode, pathSums []int, target int, count *int) {
+func (t p437) traverse(node *TreeNode, pathSums []int, target int, count *int) {
 	if node == nil {
 		return
 	}
@@ -45,6 +45,6 @@ func (t this) traverse(node *TreeNode, pathSums []int, target int, count *int) {
 	newPathSums = append(newPathSums, node.Val)
 
 	// Recur for left and right children
-	new(this).traverse(node.Left, newPathSums, target, count)
-	new(this).traverse(node.Right, newPathSums, target, count)
+	new(p437).traverse(node.Left, newPathSums, target, count)
+	new(p437).traverse(node.Right, newPathSums, target, count)
 }
