@@ -12,7 +12,7 @@ import (
 
 // p1456Cmd represents the p1456 command
 var p1456Cmd = &cobra.Command{
-	Use:   "p1456",
+	Use:   "1456",
 	Short: "Maximum Number of Vowels in a Substring of Given Length",
 	Long: `Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
 

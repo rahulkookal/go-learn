@@ -13,7 +13,7 @@ import (
 
 // p443Cmd represents the p443 command
 var p443Cmd = &cobra.Command{
-	Use:   "p443",
+	Use:   "443",
 	Short: "String Compression",
 	Long: `Given an array of characters chars, compress it using the following algorithm:
 

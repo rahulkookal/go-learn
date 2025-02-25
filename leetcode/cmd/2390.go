@@ -12,7 +12,7 @@ import (
 
 // problem2390Cmd represents the problem2390 command
 var problem2390Cmd = &cobra.Command{
-	Use:   "problem2390",
+	Use:   "2390",
 	Short: "Removing Stars From a String",
 	Long: `You are given a string s, which contains stars *.
 

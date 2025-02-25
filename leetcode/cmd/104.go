@@ -12,7 +12,7 @@ import (
 
 // problem104Cmd represents the problem104 command
 var problem104Cmd = &cobra.Command{
-	Use:   "problem104",
+	Use:   "104",
 	Short: "Maximum Depth of Binary Tree",
 	Long: `Given the root of a binary tree, return its maximum depth.
 

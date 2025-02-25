@@ -12,7 +12,7 @@ import (
 
 // p437Cmd represents the p437 command
 var p437Cmd = &cobra.Command{
-	Use:   "p437",
+	Use:   "437",
 	Short: "Path Sum III",
 	Long: `Given the root of a binary tree and an integer targetSum, return the number of paths where the sum of the values along the path equals targetSum.
 

@@ -12,7 +12,7 @@ import (
 
 // p215Cmd represents the p215 command
 var p215Cmd = &cobra.Command{
-	Use:   "p215",
+	Use:   "215",
 	Short: "Kth Largest Element in an Array",
 	Long: `Given an integer array nums and an integer k, return the kth largest element in the array.
 		Note that it is the kth largest element in the sorted order, not the kth distinct element.
