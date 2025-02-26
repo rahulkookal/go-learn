@@ -90,9 +90,6 @@ func init() {
 }
 ```
 
-## Contributing
-Feel free to contribute by adding new commands or optimizing existing ones. Follow standard Go conventions and use `golangci-lint` for code quality.
-
 ## License
 This is free and unencumbered software released into the public domain.
 
