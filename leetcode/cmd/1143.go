@@ -7,6 +7,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
+	"rahul.com/leetcode/solutions"
 )
 
 // 1143Cmd represents the 1143 command
@@ -41,6 +42,8 @@ var p1143Cmd = &cobra.Command{
 	text1 and text2 consist of only lowercase English characters.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("1143 called")
+		result := solutions.LongestCommonSubsequence("abc", "def")
+		fmt.Print(result)
 	},
 }
 
