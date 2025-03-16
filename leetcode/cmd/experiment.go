@@ -12,7 +12,7 @@ import (
 // experimentCmd represents the experiment command
 var experimentCmd = &cobra.Command{
 	Use:   "experiment",
-	Short: "Used to try out go code",
+	Short: "",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("experiment called")
